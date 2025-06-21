@@ -37,7 +37,7 @@
                         <tr>
                             <td>{{ $index + 1 }}</td>
                             <td>{{ $item->product->name }}</td>
-                            <td>{{ $item->product->sku }}</td>
+                            <td>{{ $item->product->SKU }}</td>
                             <td class="text-end">₹{{ number_format($item->price, 2) }}</td>
                             <td class="text-end">{{ $item->quantity }}</td>
                             <td class="text-end">₹{{ number_format($item->subtotal, 2) }}</td>
